@@ -1,0 +1,115 @@
+body {
+    background-color: #f3e5d8;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.food{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.food h1{
+    text-align: justify;
+    color: hsl(24, 5%, 18%);
+}
+.food p{
+    color: hsl(30, 10%, 34%);
+}
+.time-area{
+    margin-top: 25px;
+    background-color: hsl(323, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.time-area h3{
+    color: hsl(332, 51%, 32%);
+}
+.time-area-ul{
+    padding: 15px 30px;
+    line-height: 30px;
+}
+.time-area ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+.time-area-text{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+.text{
+    color:  hsl(30, 10%, 34%);
+}
+.material{
+    border-bottom: 1px solid rgb(203, 203, 203);
+    padding: 25px;
+}
+.material h2{
+    color:  hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.material-li{
+    line-height: 30px;
+    padding: 15px 20px;
+}
+.material-li li{
+    color: hsl(30, 10%, 34%);
+}
+.material-list ul li::marker {
+    color:  hsl(14, 45%, 36%);
+}
+.explane{
+    border-bottom: 1px solid rgb(203, 203, 203);
+    padding: 25px; 
+}
+.explane h2{
+    color:  hsl(14, 45%, 36%);
+}
+ol li::marker {
+    color:  hsl(14, 45%, 36%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.explane-li span{
+    color: hsl(34, 6%, 25%);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.explane-li li{
+    color: hsl(30, 10%, 34%);
+}
+.footer{
+    padding: 25px;
+}
+.footer h2{
+    color:  hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+}
+.footer p{
+    color: hsl(30, 10%, 34%);
+    font-size: 15px;
+}
+.table{
+    padding: 25px;
+}
+.discribtion{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    font-family: outfitL;
+    align-items: center;
+}
+.last{
+    border: none;
+}
+.table-dis{
+    color: hsl(30, 10%, 34%);
+}
+.dis-num{
+    color:  hsl(14, 45%, 36%);
+}
